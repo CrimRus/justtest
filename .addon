@@ -1,5 +1,13 @@
 {
-    "sharedassets": "*.*",
-    "type": "game",
-    "rootnamespace": "MinimalExample"
+  "SharedAssets": "*.*",
+  "Title": "Sabox",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "sabox",
+  "Schema": 1,
+  "HasAssets": false,
+  "AssetsPath": "",
+  "HasCode": true,
+  "CodePath": "code",
+  "RootNamespace": "Sandbox"
 }
