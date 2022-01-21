@@ -24,7 +24,7 @@ namespace MinimalExample
 		{
 			if ( IsServer )
 			{
-				Log.Info( "My Gamemode Has Created Serverside!" );
+				Log.Info( "Serverside!" );
 
 				// Create a HUD entity. This entity is globally networked
 				// and when it is created clientside it creates the actual
@@ -35,7 +35,7 @@ namespace MinimalExample
 
 			if ( IsClient )
 			{
-				Log.Info( "My Gamemode Has Created Clientside!" );
+				Log.Info( "Clientside!" );
 			}
 		}
 
